@@ -14,5 +14,6 @@ export const routes: Routes = [
     {path: "buy", component: BuyComponent},
     {path: "sell", component: SellComponent},
     {path: "other", component: OtherComponent},
+    {path: "index", component: LandingComponent},
     { path: '**', redirectTo: '/home', pathMatch: 'full'}
 ];
